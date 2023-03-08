@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Cecilio Avila</title>
+    <!-- ESTILO BASE CON RESET.CSS -->
+    <link   rel="stylesheet" href="./assets/css/base.css" />
+    <!-- GOOGLE FONTS -->
+    <link   rel="preconnect"    href="https://fonts.googleapis.com" />
+    <link  rel="preconnect"    href="https://fonts.gstatic.com"   crossorigin />
+    <link    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet" />
+    <!-- ICONSCOUT -->
+    <link  rel="stylesheet"  href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <!-- ESTILOS -->
+    <link  rel="stylesheet"    href="./assets/css/header/header.css" />
+    <link   rel="stylesheet" href="./assets/css/banner/banner.css" />
+    <link   rel="stylesheet"     href="./assets/css/sobre-mi/sobre-mi.css" />
+    <link     rel="stylesheet"     href="./assets/css/skills/skills.css" />
+    <link   rel="stylesheet"     href="./assets/css/hobbies/hobbies.css" />
+    <link    rel="stylesheet"  href="./assets/css/formaciones/formaciones.css" />
+    <link  rel="stylesheet"   href="./assets/css/portfolio/portfolio.css" />
+    <link   rel="stylesheet" href="./assets/css/formulario/formulario.css" />
+    <link  rel="stylesheet" href="/assets/css/footer/footer.css" />
+  </head>
+  
+  <body>
+    <!-- HEADER CON NAVEGACIÓN -->
+    <header class="header container">
+      <h1 class="header__logo"><a href="#">CECILIO JOSE AVILA RAMOS</a></h1>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#sobre-mi" >Sobre mi</a
+            >
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#skills" >Skills</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link"  href="#hobbies" >Hobbies</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link"  href="#formacion"  >Formación</a>
+          </li>
+          <li class="menu__item">
+            <a  class="menu__link" ref="#experiencia"   >Proyectos</a>
+          </li>
+          <li class="menu__item menu__item--contacto">
+            <a  class="menu__link" href="#contacto" >Contacto</a>
+          </li>
+        </ul>
+        <button class="menu__open"><i class="uil uil-bars"></i></button>
+        <button class="menu__close"><i class="uil uil-multiply"></i></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- BANNER -->
+      <section class="banner container">
+        <div class="banner__img"></div>
+        <div class="hero">
+          <img  src="./assets/img/cecilio.jpg" alt="Foto del perfil" class="hero__img__profile" />
+          <div class="hero__text">
+            <h1 class="hero__text__title">
+              Hola, mi nombre es CECILIO JOSE AVILA RAMOS, Formado como asistente administrativo,
+              Desarrollador FrontEnd y Desarrollador web.
+            </h1>
+            <p class="hero__text__paragraph">
+              Soy de Moñitos Córdoba, Colombia. Tengo 35 años, actualmente vivo en la ciudad de 
+              Medellin con mi esposa Yoly Ibañez y mis dos hijas: Maria Jose y Yocelis.
+              Soy un apasionado por el aprendizaje y actualmete me dedico activamente a las nuevas tecnologias.
+            </p>
+          </div>
+          <ul class="hero__text__list">
+            <li class="hero__text__list__item">
+              <a href="https://github.com/CeciliojoseAvila" class="hero__text__list__item__link" target="_blank">
+                       <i class="uil uil-github"></i>
+              </a>
+            </li>
+            <li class="hero__text__list__item">
+              <a href="https://www.linkedin.com/in/cecilio-jose-avila-ramos-541066247/"
+                class="hero__text__list__item__link"   target="_blank">
+                <i class="uil uil-linkedin"></i>
+              </a>
+            </li>
+           
+            </li>
+            <li class="hero__text__list__item">
+              <a
+                href="https://iridescent-pegasus-fde41f.netlify.app/"
+                class="hero__text__list__item__link hero__text__list__item__link--curriculum"
+                download
+                target="_blank">
+                CV
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>  
+      
+      <!-- SKILLS -->
+      <section class="skills container"  id="skills">
+        <h1 class="skills__title">SKILLS</h1>
+        <div class="skills__card">
+
+           <div class="skill">
+            <img  src="./assets/img/logos/icons8-react.svg"  alt="" class="skill__img" />
+            <h4 class="skill__text">React</h4>
+          </div>
+          <div class="skill">
+            <img  src="./assets/img/logos/java-script.svg"   alt="" class="skill__img" />
+            <h4 class="skill__text">JavaScript</h4>
+          </div>
+
+           <div class="skill">
+            <img   src="./assets/img/Angular.jpg" alt="" class="skill__img" />
+            <h4 class="skill__text">Angular</h4>
+          </div>
+
+          <div class="skill">
+            <img  src="./assets/img/logos/icons8-html-5.svg"  alt="" class="skill__img" />
+            <h4 class="skill__text">HTML5</h4>
+          </div>
+          
+          <div class="skill">
+            <img src="./assets/img/logos/python.svg"   alt="" class="skill__img" />
+            <p class="skill__text">Python</p>
+          </div>
+
+           <div class="skill">
+            <img   src="./assets/img/PHP.jpg" alt="" class="skill__img" />
+            <h4 class="skill__text">PHP </h4>
+          </div>
+
+            <div class="skill">
+            <img  src="./assets/img/logos/nodejs.svg"    alt="" class="skill__img" />
+            <h4 class="skill__text">NodeJS</h4>
+          </div>
+          <div class="skill">
+            <img  src="./assets/img/logos/icons8-css3.svg"  alt="" class="skill__img" />
+            <h4 class="skill__text">CSS3</h4>
+          </div>
+        
+          <div class="skill">
+            <img
+              src="./assets/img/logos/mongodb.svg"
+              alt=""
+              class="skill__img" />
+            <h4 class="skill__text">MongoDB</h4>
+          </div>
+          <div class="skill">
+            <img   src="./assets/img/logos/icons8-bootstrap.svg" alt="" class="skill__img" />
+            <h4 class="skill__text">Bootstrap</h4>
+          </div>
+
+           <div class="skill">
+            <img   src="./assets/img/ASP.NET.jpg" alt="" class="skill__img" />
+            <h4 class="skill__text"> ASP.NET </h4>            
+          </div>
+         
+          <div class="skill">
+            <img
+              src="./assets/img/logos/icons8-git.svg"
+              alt=""
+              class="skill__img" />
+            <h4 class="skill__text">Git</h4>
+          </div>
+        </div>
+      </section>
+      <!-- HOBBIES -->
+      <section
+        class="hobbies container"
+        id="hobbies">
+        <h1 class="hobbies__title">HOBBIES</h1>
+        <div class="hobbies__card">
+                     
+          <div class="hobbie">
+              <img  src="./assets/img/guitar_icon.png"  alt="" class="hobbie__img" />
+              <h4 class="hobbie__text">Cantar</h4>
+          </div>
+          <div class="hobbie">
+            <img  src="./assets/img/hobbies/icons8-books-100.png"  alt=""class="hobbie__img" />
+            <h4 class="hobbie__text">Leer</h4>
+          </div>
+
+          <div class="hobbie">
+            <img src="./assets/img/hobbies/icons8-headset-100.png"  alt=""  class="hobbie__img" />
+            <h4 class="hobbie__text">Escuchar música</h4>
+          </div>
+
+          <div class="hobbie">
+            <img
+              src="./assets/img/hobbies/icons8-tv-show-96.png"
+              alt=""
+              class="hobbie__img" />
+            <h4 class="hobbie__text">Ver TV</h4>
+          </div>
+
+            <div class="hobbie">
+                <img  src="./assets/img/familia.jpg"  alt="" class="hobbie__img" />
+                <h4 class="hobbie__text">Disfrutar en familia</h4>
+            </div>
+        </div>
+      </section>
+      <!-- FORMACIONES -->
+      <section
+        class="formaciones"
+        id="formacion">
+        <h1 class="formaciones__title">FORMACION  ACADEMICA</h1>
+        <div class="formacion__cards">
+          <div class="formacion__card">
+            <img  src="./assets/img/UdeA.png"  alt="" class="formacion__img" />
+            <h2 class="formacion__title"> DIPLOMADO EN DESARROLLO WEB </h2>
+            <p class="formacion__text">2022 - Universidad de Antioquia</p>
+          </div>
+          <div class="formacion__card">
+            <img src="./assets/img/platzi.jpeg"  alt="" class="formacion__img" />
+            <h2 class="formacion__title">Fundamentos en ing. de Sistemas, FrontEnd, Audiovisuales, entre otros.</h2>
+            <p class="formacion__text">2023 - Platzi</p>
+          </div>
+          <div class="formacion__card">
+            <img src="./assets/img/logos/alura-latam-logo.jpg"  alt="" class="formacion__img" />
+            <h2 class="formacion__title"> Programador Junior </h2>
+            <p class="formacion__text">En curso - Alura-Latam </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCIA EN PROGRAMACIÓN -->
+      <section
+        id="experiencia"
+        class="portfolios container">
+        <h1 class="portfolios__title">EXPERIENCIA EN PROGRAMACIÓN</h1>
+        <div class="portfolios__projects">
+
+          <article class="portfolio__project">
+              <span class="portfolio__project__img">
+                  <img src="./assets/img/proyectos/fruta-fruo.png"  alt="" />
+              </span>
+              <div class="portfolio__description">
+                  <h2 class="portfolio__description__title">Frutas & Frutos</h2>
+                  <p class="portfolio__description__text"></p>
+                <div class="portfolio__description__btn">
+                  <a href="https://ceciliojoseavila.github.io/Frutas-y-Frutos/" class="btn"
+                      target="_blank" >GitHub</a >
+                    
+                </div>
+              </div>
+          </article>
+
+          <article class="portfolio__project">
+              <span class="portfolio__project__img">
+                  <img src="./assets/img/proyectos/DOM2.jpg"  alt="" />
+              </span>
+              <div class="portfolio__description">
+                  <h2 class="portfolio__description__title"> MANIPULANDO EL DOM </h2>
+                  <p class="portfolio__description__text"></p>
+                <div class="portfolio__description__btn">
+                  <a href="https://ceciliojoseavila.github.io/MANIPULANDO-DOM-JS/" class="btn"
+                      target="_blank" >GitHub</a >
+                    
+                </div>
+              </div>
+          </article>
+
+          <article class="portfolio__project">
+            <span class="portfolio__project__img">
+              <img
+                src="./assets/img/proyectos/barberia-alura.png"
+                alt="" />
+            </span>
+            <div class="portfolio__description">
+              <h2 class="portfolio__description__title">BARBERIA ALURA</h2>
+              <p class="portfolio__description__text"></p>
+              <div class="portfolio__description__btn">
+                <a href="https://ceciliojoseavila.github.io/Barberia-Alura-HTML-CSS/"  class="btn"
+                  target="_blank"   >GitHub</a>
+               
+              </div>
+            </div>
+          </article>
+          <article class="portfolio__project">
+              <span class="portfolio__project__img">
+                  <img src="./assets/img/petShop1.jpg"  alt="" />
+              </span>
+              <div class="portfolio__description">
+                  <h2 class="portfolio__description__title">PETSHOP</h2>
+                  <p class="portfolio__description__text"></p>
+                <div class="portfolio__description__btn">
+                  <a href="https://ceciliojoseavila.github.io/html-validaciones-proyecto_inicial/registro.html" class="btn"
+                      target="_blank" >GitHub</a >
+                    
+                </div>
+              </div>
+          </article>
+          <article class="portfolio__project">
+            <span class="portfolio__project__img">
+              <img  src="./assets/img/encriptador2.jpg" alt="" />
+            </span>
+            <div class="portfolio__description">
+              <h2 class="portfolio__description__title">ENCRIPTADOR</h2>
+              <p class="portfolio__description__text"></p>
+              <div class="portfolio__description__btn">
+                <a href="https://ceciliojoseavila.github.io/Challenge-Alura1/"  class="btn"
+                  target="_blank">GitHub</a >
+              
+              </div>
+            </div>
+          </article>
+          <article class="portfolio__project">
+            <span class="portfolio__project__img">
+              <img
+                src="./assets/img/proyectos/mini-alura.png"
+                alt="" />
+            </span>
+            <div class="portfolio__description">
+              <h2 class="portfolio__description__title">MINI ALURA</h2>
+              <p class="portfolio__description__text"></p>
+              <div class="portfolio__description__btn">
+                <a href="https://ceciliojoseavila.github.io/Mini-Alura-flexBox-posicion/"   class="btn"
+                  target="_blank" >GitHub</a >
+                
+              </div>
+            </div>
+          </article>
+          <article class="portfolio__project">
+            <span class="portfolio__project__img">
+              <img   src="./assets/img/proyectos/apeperia.png"   alt="" />
+            </span>
+            <div class="portfolio__description">
+              <h2 class="portfolio__description__title">APEPERIA</h2>
+              <p class="portfolio__description__text"></p>
+              <div class="portfolio__description__btn">
+                <a href="https://ceciliojoseavila.github.io/Layouts-Responsivo-Apeperia/"
+                  class="btn" target="_blank" >GitHub</a>
+               
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+      <!-- FORMUALRIO DE CONTACTO -->
+      <section id="contacto" class="contacto container">   
+        
+        <div class="contacto__text">
+          <h1 class="contacto__text__title">Contacto</h1>
+          <p class="contacto__text__paragraph">¿Quieres contactarme?</p>
+          <p class="contacto__text__paragraph">
+            Complete el siguiente formulario y me pondré en contacto con usted lo más rápido posible
+          </p>
+        </div>
+
+        <form  action="https://formspree.io/f/moqzwrvg" method="POST"  class="form">
+          <fieldset>
+            <div class="input-container">
+              <input  type="text" name="name"  id="name"  placeholder="Nombre"
+                class="input"   data-tipo="nombre"  pattern="^.{1,50}$"  required />
+              <label    class="input-label"   for="name"  >Nombre</label>
+              <span class="input-message-error"></span>
+            </div>
+            <div class="input-container">
+              <input  type="email"  name="email" id="email" placeholder="Email"
+                class="input"  data-tipo="email" required />
+              <label  class="input-label" for="email"    >Email</label >
+              <span class="input-message-error"></span>
+            </div>
+            <div class="input-container">
+              <input  type="text" name="asunto"  id="asunto" placeholder="asunto"
+                class="input"   pattern="^.{1,50}$"   data-tipo="asunto"  required />
+              <label  class="input-label"   for="asunto"   >Asunto</label>
+              <span class="input-message-error"></span>
+            </div>
+            <div class="textarea-container">
+              <textarea  name="mensaje"  id="mensaje" rows="8"  class="textarea-input"
+                required data-tipo="message"></textarea>
+              <label  class="textarea-label"  for="mensaje"  >Mensaje</label>
+              <span class="textarea-message-error"></span>
+            </div>
+          </fieldset>
+          <button  type="submit" class="btn btn-form">
+            <i class="uil uil-message"></i>Enviar
+          </button>
+        </form>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <h2 class="footer__title">&copy; @CecilioJoseAvilaRamos</h2>
+      <h2 class="footer__title">Agradecimientos a One Oracle y Alura-Latam</h2>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="./js/styled.js"></script>
+    <script
+      type="module"
+      src="./js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+:root {
+  --color-blanco: hsl(0, 0%, 100%);
+  --raleway: "Raleway", sans-serif;
+  --color-dark: #00204a;
+  --line-color: hsl(60, 7%, 97%);
+  --color-text: #f6f4f0;
+  --background-nav: #2d13d7;
+  --background-light: #8b0dae;
+  --color-banner-title: #fdfbf9;
+  --color-text-btn: #042ab6;
+  --color-background-btn-primary: #d6dc21;
+  --card-color: hsl(180, 40%, 94%);
+  --color-warning: #ff0000;
+  --background-form: #a4a6b4;
+  --background-footer: #225707;
+  --color-title-section: #100ced;
+}
+ 
