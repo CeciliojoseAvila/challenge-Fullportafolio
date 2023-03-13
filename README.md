@@ -37,9 +37,6 @@ Armado de un portafolio personal con formulario de contacto, formación académi
 
 #### Skills y Hobbies
 
-![](https://user-images.githubusercontent.com/64149462/223171453-9e151373-28cb-4a2b-adaf-763f816fe433.gif)
-
-![](https://user-images.githubusercontent.com/64149462/223171458-cc244f3f-df73-49fd-9cb8-97daf48c0e83.gif)
 
 #### Formación Académica
 
@@ -48,9 +45,8 @@ Armado de un portafolio personal con formulario de contacto, formación académi
 
 #### Proyectos en Tecnología
 
-![](https://user-images.githubusercontent.com/64149462/223173584-fd1ce8d1-623e-4823-a813-54c50ba8eae0.gif)
+![]
 
-![](https://user-images.githubusercontent.com/64149462/223172517-c80f5840-575a-435f-8378-b87027e4aeca.gif)
+![]
 
 ## Demo
-https://portfolio-stefania-bruera.vercel.app/
