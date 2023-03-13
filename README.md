@@ -27,20 +27,20 @@ Armado de un portafolio personal con formulario de contacto, formación académi
 
 #### Navegación
 
-![](https://user-images.githubusercontent.com/64149462/223171435-ce166c7e-d87e-4951-ade0-7f7143f0c680.gif)
+![]
 
-![](https://user-images.githubusercontent.com/64149462/223171742-bf248558-86a6-45cc-869a-e2ffce8be784.gif)
+![]
 
 #### Iconos del Banner
 
-![](https://user-images.githubusercontent.com/64149462/223171451-951660c1-f74c-4bad-b840-b94168d3505e.gif)
+![]
 
 #### Skills y Hobbies
 
 
 #### Formación Académica
 
-![](https://user-images.githubusercontent.com/64149462/223171463-ae3da925-8a36-49cc-8c87-a955527672cd.gif)
+![]
 
 
 #### Proyectos en Tecnología
